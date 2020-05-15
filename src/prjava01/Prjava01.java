@@ -22,6 +22,9 @@ public class Prjava01 {
     public static void main(String[] args) throws IOException {
        File f = new File("fitxer.html");
        try (BufferedWriter bw = new BufferedWriter(new FileWriter(f))) {
+           bw.write("    <h1>DAM2 m05uf2pr4</h1>");
+           bw.newLine();
+
            bw.write("<html>");
            bw.newLine(); 
            bw.write("  <head>");
